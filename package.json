@@ -1,0 +1,14 @@
+{
+  "name": "lambda-performance",
+  "version": "1.0.0",
+  "description": "This project is to compare AWS Lambda using NodeJS to LLRT",
+  "main": "index.js",
+  "scripts": {
+    "version": "terraform version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shashikanth Kota",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
