@@ -1,11 +1,10 @@
+const timestamp = new Date().toISOString();
 export const handler = async (event) => {
     const users = await getUsers();
-    const response = {
+    return {
         statusCode: 200,
-        body: users,
+        body: {timestamp, users},
     };
-    console.log('Sending', response);
-    return response;
 };
 
 async function getUsers() {

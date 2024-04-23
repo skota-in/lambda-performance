@@ -1,7 +1,7 @@
+const timestamp = new Date().toISOString();
 export const handler = async (event) => {
-    const response = {
+    return {
         statusCode: 200,
-        body: JSON.stringify('Hello from Lambda!'),
+        body: {timestamp, message: 'Hello from Lambda!'}
     };
-    return response;
 };

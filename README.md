@@ -40,3 +40,18 @@
 # Runtimes
 
 ![Runtimes](resources/runtimes.png)
+
+# Performance Reports
+
+* [Hello World (LLRT) Performance.pdf](reports%2FHello%20World%20%28LLRT%29%20Performance.pdf)
+* [Hello World (NodeJS) Performance.pdf](reports%2FHello%20World%20%28NodeJS%29%20Performance.pdf)
+* [List all countries (LLRT) Performance.pdf](reports%2FList%20all%20countries%20%28LLRT%29%20Performance.pdf)
+* [List all countries (NodeJS) Performance.pdf](reports%2FList%20all%20countries%20%28NodeJS%29%20Performance.pdf)
+* [List all users (LLRT) Performance.pdf](reports%2FList%20all%20users%20%28LLRT%29%20Performance.pdf)
+* [List all users (NodeJS) Performance.pdf](reports%2FList%20all%20users%20%28NodeJS%29%20Performance.pdf)
+
+# Postman Collection
+
+[Lambda Performance Collection](https://www.postman.com/skota-in/workspace/skota-public/collection/28843236-d10de28b-da48-4b61-9d81-cc8eebe34834?action=share&creator=28843236)
+
+[Lambda Performance Collection $LATEST](https://www.postman.com/skota-in/workspace/skota-public/collection/28843236-0b052c38-bf98-48aa-9c42-06ed06209092?action=share&creator=28843236)

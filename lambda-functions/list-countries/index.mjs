@@ -1,11 +1,10 @@
+const timestamp = new Date().toISOString();
 export const handler = async (event) => {
     const countries = await getCountries();
-    const response = {
+    return {
         statusCode: 200,
-        body: countries,
+        body: {timestamp, countries},
     };
-    console.log('Sending', response);
-    return response;
 };
 
 async function getCountries() {
