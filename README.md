@@ -2,37 +2,40 @@
 
 ![Hello World](resources/hello_world.png)
 
-| NodeJS                   | LLRT                    |
-|--------------------------|-------------------------|
-| Duration: 13.16 ms       | Duration: 1.28 ms       |
-| Billed Duration: 14 ms   | Billed Duration: 38 ms  |
-| Memory Size: 128 MB      | Memory Size: 128 MB     |
-| Max Memory Used: 64 MB   | Max Memory Used: 23 MB  |
-| Init Duration: 142.35 ms | Init Duration: 35.84 ms |
+| NodeJS                                                                       | LLRT                                                                         |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| Duration: 13.16 ms                                                           | Duration: 1.28 ms                                                            |
+| Billed Duration: 14 ms                                                       | Billed Duration: 38 ms                                                       |
+| Memory Size: 128 MB                                                          | Memory Size: 128 MB                                                          |
+| Max Memory Used: 64 MB                                                       | Max Memory Used: 23 MB                                                       |
+| Init Duration: 142.35 ms                                                     | Init Duration: 35.84 ms                                                      |
+| [URL](https://fgjzkk5smnfipc33shwrhg7g2q0onvhe.lambda-url.us-east-1.on.aws/) | [URL](https://nxs6kv4v5wrcy543yswbam77di0nimqb.lambda-url.us-east-1.on.aws/) |
 
 # List all countries
 
 ![List all countries](resources/list_countries.png)
 
-| NodeJS                   | LLRT                    |
-|--------------------------|-------------------------|
-| Duration: 5391.81 ms     | Duration: 546.85 ms     |
-| Billed Duration: 5392 ms | Billed Duration: 576 ms |
-| Memory Size: 128 MB      | Memory Size: 128 MB     |
-| Max Memory Used: 116 MB  | Max Memory Used: 29 MB  |
-| Init Duration: 149.29 ms | Init Duration: 28.80 ms |
+| NodeJS                                                                       | LLRT                                                                         |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| Duration: 5391.81 ms                                                         | Duration: 546.85 ms                                                          |
+| Billed Duration: 5392 ms                                                     | Billed Duration: 576 ms                                                      |
+| Memory Size: 128 MB                                                          | Memory Size: 128 MB                                                          |
+| Max Memory Used: 116 MB                                                      | Max Memory Used: 29 MB                                                       |
+| Init Duration: 149.29 ms                                                     | Init Duration: 28.80 ms                                                      |
+| [URL](https://nc732ydbgfrzrrkiqcuxnoodzi0kkdsu.lambda-url.us-east-1.on.aws/) | [URL](https://5g44amigoxxh5w2ubgdo4xfpyu0zcsfk.lambda-url.us-east-1.on.aws/) |
 
 # List all users
 
 ![list_users](resources/list_users.png)
 
-| NodeJS                   | LLRT                     |
-|--------------------------|--------------------------|
-| Duration: 7665.89 ms     | Duration: 2053.13 ms     |
-| Billed Duration: 7666 ms | Billed Duration: 2094 ms |
-| Memory Size: 128 MB      | Memory Size: 128 MB      |
-| Max Memory Used: 114 MB  | Max Memory Used: 63 MB   |
-| Init Duration: 139.70 ms | Init Duration: 40.14 ms  |
+| NodeJS                                                                       | LLRT                                                                         |
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| Duration: 7665.89 ms                                                         | Duration: 2053.13 ms                                                         |
+| Billed Duration: 7666 ms                                                     | Billed Duration: 2094 ms                                                     |
+| Memory Size: 128 MB                                                          | Memory Size: 128 MB                                                          |
+| Max Memory Used: 114 MB                                                      | Max Memory Used: 63 MB                                                       |
+| Init Duration: 139.70 ms                                                     | Init Duration: 40.14 ms                                                      |
+| [URL](https://od62pxwsyee42heditojf2axqi0pbfac.lambda-url.us-east-1.on.aws/) | [URL](https://fmf5zofdptuixjtamqss6hspsi0efhrk.lambda-url.us-east-1.on.aws/) |
 
 # Runtimes
 
