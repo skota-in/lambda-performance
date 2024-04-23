@@ -26,3 +26,13 @@ resource "aws_lambda_function" "llrt_lambda" {
 
   layers = [var.lambda_layer_arn]
 }
+
+resource "aws_lambda_function_url" "nodejs_url" {
+  function_name      = aws_lambda_function.nodejs_lambda.function_name
+  authorization_type = "NONE"
+}
+
+resource "aws_lambda_function_url" "llrt_url" {
+  function_name      = aws_lambda_function.llrt_lambda.function_name
+  authorization_type = "NONE"
+}

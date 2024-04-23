@@ -12,22 +12,29 @@ resource "aws_lambda_layer_version" "llrt-lambda-x64" {
 }
 
 # Create IAM role and policy for lambda
-data "aws_iam_policy_document" "assume_role" {
-  statement {
-    effect = "Allow"
+resource "aws_iam_role" "iam_for_lambda" {
+  name = "lambda_exec_role"
 
-    principals {
-      type        = "Service"
-      identifiers = ["lambda.amazonaws.com"]
+  assume_role_policy = <<EOF
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Action": "sts:AssumeRole",
+      "Principal": {
+        "Service": "lambda.amazonaws.com"
+      },
+      "Effect": "Allow",
+      "Sid": ""
     }
-
-    actions = ["sts:AssumeRole"]
-  }
+  ]
+}
+EOF
 }
 
-resource "aws_iam_role" "iam_for_lambda" {
-  name               = "iam_for_lambda"
-  assume_role_policy = data.aws_iam_policy_document.assume_role.json
+resource "aws_iam_role_policy_attachment" "lambda_exec_role_policy_attachment" {
+  role       = aws_iam_role.iam_for_lambda.name
+  policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
 }
 
 # Create Lambdas
